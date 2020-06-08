@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/my.css">
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <title>主页</title>
+</head>
+<body>
+<!-- ******************************************************************* -->
+<!-- row布局（行列布局） -->
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-md-4">1</div>
+            <div class="col-md-4">2</div>
+            <div class="col-md-4">3</div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-md-6">2</div>
+                    <div class="col-md-6">3</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">2</div>
+                    <div class="col-md-6">3</div>
+                </div>
+            </div>
+            <div class="col-md-9">3</div>
+        </div>
+    </div> -->
+<!-- ******************************************************************* -->
+
+<!-- 栅格参数，手机与电脑不同排版显示 -->
+<!-- <div class="container">
+        <div class="row">
+            <div class="col-md-2 col-xs-1">1</div>
+            <div class="col-md-2 col-xs-6">2</div>
+            <div class="col-md-2 col-xs-6">3</div>
+            <div class="col-md-2 col-xs-4">1</div>
+            <div class="col-md-2 col-xs-4">2</div>
+            <div class="col-md-2 col-xs-4">3</div>
+        </div>
+</div> -->
+
+<!-- ******************************************************************* -->
+<!-- 重置行高度 -->
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-md-6" style="height: 100px;">1</div>
+        <div class="col-md-6">2</div>
+
+        <p>注释：该样式是在想换行显示的处，因为1 的高度改变，导致3和4的布局出现错误</p>
+        <div class="clearfix"></div>
+
+        <div class="col-md-6">3</div>
+        <div class="col-md-6">1</div>
+    </div>
+</div> -->
+<!-- ******************************************************************* -->
+<!-- 移动offset列的位置 -->
+
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-md-3">1</div>
+        <div class="col-md-3 col-md-offset-5">2</div>
+        <p>注释：offset向右移动5</p>
+    </div>
+</div> -->
+<!-- ******************************************************************* -->
+<!-- 微调列的位置 -->
+
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-md-3 col-md-push-1">1</div>
+        <p>注释：将1 向右微调1 哥单位，但是2不变</p>
+        <div class="col-md-3">2</div>
+    </div>
+</div> -->
+
+<!-- ******************************************************************* -->
+
+<!-- 使用small作为副标题 -->
+
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>i am title <small>abcd</small></h1>
+        </div>
+    
+</div> -->
+
+<!-- ******************************************************************* -->
+<!-- 改变行高和字体 -->
+<!-- 官方文档中，在body里面加入 style="line-height:xx px"font-size为字体大小 即可改变 -->
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum 
+                sociis natoque penatibus et magnis dis parturient montes,
+                 nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+                 <p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque 
+                     penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam
+                      id dolor id nibh ultricies vehicula.</p>
+        <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi 
+            porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+        
+            
+        </div>
+    
+</div> -->
+
+<!-- ******************************************************************* -->
+<!-- 段落添加lead 将该段落样式突出-->
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum 
+                sociis natoque penatibus et magnis dis parturient montes,
+                 nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+                 <p class="lead">Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque 
+                     penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam
+                      id dolor id nibh ultricies vehicula.</p>
+        <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi 
+            porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+        
+            
+        </div>
+    
+</div> -->
+
+
+<!-- ******************************************************************* -->
+<!-- 文字操作，代码高亮mark，划掉del、s 下划线ins -->
+
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <p>Nullam quis risus <ins> eget urna mollis ornare vel</ins> eu leo. Cum 
+                sociis natoque  dis parturient montes,
+                 nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+                 <p class="lead">Nullam quis <mark>penatibus et magnis</mark> risus eget <s>urna mollis ornare</s> vel eu leo. Cum sociis natoque 
+                     penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam
+                      id dolor <del>id nibh ultricies</del> vehicula.</p>
+        <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi 
+            porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+        
+            
+        </div>
+    
+</div> -->
+
+
+<!-- ******************************************************************* -->
+
+
+
+
+
+
+<!-- ******************************************************************* -->
+
+
+
+
+<!-- ******************************************************************* -->
+
+
+
+
+<!-- ******************************************************************* -->
+
+
+
+
+<!-- ******************************************************************* -->
+
+
+
+
+<!-- ******************************************************************* -->
+
+
+
+
+
+
+<!-- ******************************************************************* -->
+
+
+
+
+</body>
+</html>
