@@ -45,9 +45,9 @@ body {
     position: fixed !important;
 }
 
-.zqh_left_top {
+.zqh_left_top_btn {
     left: 25px !important;
-    top: 500px !important;
+    top: 400px !important;
 }
 
 
@@ -74,4 +74,13 @@ body {
     background-color: #ffffff;
 }
 
+.zqh_text_color {
+    color: #c7c6c6 !important;
+}
+
+.zqh_footer_school {
+    font-family: '华文行楷' !important;
+    color: #c7c6c6 !important;
+    font-size: 20px !important;
+}
 
