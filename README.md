@@ -49,5 +49,10 @@
 6.采购员页面全部功能----周博洋 、branch35
 
 ## 成员任务
+1.范宋娇
 
-1.
+* 完成用户页面全部功能（用户首页user_index.html，购物车shopping.html和订单详情order.html）
+
+
+
+ 
