@@ -47,3 +47,12 @@
 5.在线客服页面全部功能 ----符彩云、branch06
 
 6.采购员页面全部功能----周博洋 、branch35
+
+## 成员任务
+1.范宋娇
+
+* 完成用户页面全部功能（用户首页user_index.html，购物车user_shopping.html和订单详情user_order.html）
+
+
+
+ 
