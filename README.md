@@ -51,7 +51,7 @@
 ## 成员任务
 1.范宋娇
 
-* 完成用户页面全部功能（用户首页user_index.html，购物车shopping.html和订单详情order.html）
+* 完成用户页面全部功能（用户首页user_index.html，购物车user_shopping.html和订单详情user_order.html）
 
 
 
