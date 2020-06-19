@@ -55,7 +55,7 @@
 
 2.符彩云
 
-* 完成用户注册页面和客服的页面功能（register.html,service.html）
+* 完成用户注册页面和客服的页面功能（用户注册register.html,客服页面service.html）
 
 
 
