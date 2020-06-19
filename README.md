@@ -53,6 +53,10 @@
 
 * 完成用户页面全部功能（用户首页user_index.html，购物车user_shopping.html和订单详情user_order.html）
 
+2.符彩云
+
+* 完成用户注册页面和客服的页面功能（register.html,service.html）
+
 
 
  
